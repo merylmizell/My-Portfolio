@@ -18,11 +18,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Meryl Mizell | Developer</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Meryl Mizell | Developer" />
 
     <link
       rel="stylesheet"
@@ -40,15 +40,27 @@
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
+    <!-- **** Navigation Bar **** -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#top" class="navbar-brand">Meryl Mizell</a>
+        <ul class="navbar-nav">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /END Navigation Bar -->
     <div id="top"></div>
-
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Meryl Mizell</span>
           <br />
-          I'm the Unknown Developer.
+          I'm an aspiring Buisness Analyst.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -71,7 +83,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="assets/profile.jpeg"
                 alt="Profile Image"
               />
             </div>
@@ -79,18 +91,17 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                Motivated computer science student with a strong foundation in big data, sustainability, and language. Experienced in leveraging AI and cloud technologies for impactful environmental and linguistic projects, including weather translation systems and drone-based ecological analysis. Passionate about applying technical expertise to enhance public safety and sustainability. 
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                Eager to contribute innovative solutions in analytics, machine learning, and computational linguistics.
               </p>
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="assets/MerylMizellCurrentResumeFall24.pdf"
                 >
                   View Resume
                 </a>
@@ -101,6 +112,75 @@
       </div>
     </section>
     <!-- /END About Section -->
+    
+    <!-- **** Experience Section **** -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title load-hidden">Work Experience</h2>
+        <div class="row experience-wrapper">
+          <div class="col-md-12">
+            <div class="timeline load-hidden">
+              <!-- Notice: each timeline-item is a work experience -->
+              <div class="timeline-item left">
+                <div class="timeline-content">
+                  <div class="timeline-date">September 2024 - Present</div>
+                  <div class="timeline-title">Technical Intern</div>
+                  <div class="timeline-company">KBR</div>
+                  <p class="timeline-content__text">
+                    Monitored real-time satellite data dashboards and implemented custom visualization systems for mission-critical operations.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item right">
+                <div class="timeline-content">
+                  <div class="timeline-date">June 2024 - August 2024</div>
+                  <div class="timeline-title">Lapenta Intern</div>
+                  <div class="timeline-company">NOAA</div>
+                  <p class="timeline-content__text">
+                    Developed dashboards using Python and AWS to track AI-driven weather alert translations, improving accessibility for LEP populations.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item left">
+                <div class="timeline-content">
+                  <div class="timeline-date">January 2023 - January 2024</div>
+                  <div class="timeline-title">Computer Science Intern</div>
+                  <div class="timeline-company">Blue CoLab</div>
+                  <p class="timeline-content__text">
+                    Led a team of 4 to design an interactive system for real-time water quality data visualization using React Native.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item right">
+                <div class="timeline-content">
+                  <div class="timeline-date">September 2023 - Present</div>
+                  <div class="timeline-title">Peer Leader</div>
+                  <div class="timeline-company">Pace University</div>
+                  <p class="timeline-content__text">
+                    Provided mentoring and support to freshman students, designing curriculum and presenting to 20+ students.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item left">
+                <div class="timeline-content">
+                  <div class="timeline-date">January 2020 - January 2023</div>
+                  <div class="timeline-title">Sales Associate</div>
+                  <div class="timeline-company">Sanford Sourdough Bakery</div>
+                  <p class="timeline-content__text">
+                    Managed farmers market operations, customer engagement, and sales transactions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END Experience Section -->
 
     <!-- **** Projects Section **** -->
     <section id="projects">
@@ -112,12 +192,10 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Translation Accuracy Dashboard for AI Evaluation</h3>
                 <div>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
+                    Developed a dashboard to evaluate the quality of AI-generated translations of weather alerts using industry-standard metrics such as BLEU, chrF++, COMET, and Translation Edit Rate (TER). The system identified low-scoring translations and provided actionable insights for model refinement, including retranslation strategies and human-in-the-loop corrections. This tool aids in improving the accuracy of multilingual weather communications, ensuring accessibility for Limited English Proficiency (LEP) communities.
                   </p>
                 </div>
                 <a
@@ -126,15 +204,7 @@
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
+                  See More
                 </a>
               </div>
             </div>
@@ -151,7 +221,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/TranslateApp.png"
                     />
                   </div>
                 </a>
@@ -164,12 +234,10 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Translation Log Dashboard for Real-Time Latency</h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                    Designed and implemented a dashboard to measure and analyze the time required to complete translations of critical weather alerts. Leveraged AWS S3 Bucket and DynamoDB to collect and process real-time data. Insights from latency metrics were used to identify process bottlenecks, optimize AI model efficiency, and compare cloud-based versus local translation performance. This tool enables the National Weather Service to monitor and reduce delays in delivering life-saving weather alerts.
                   </p>
                 </div>
                 <a
@@ -178,15 +246,7 @@
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
+                  See More
                 </a>
               </div>
             </div>
@@ -203,7 +263,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/LatSS2.png"
                     />
                   </div>
                 </a>
@@ -216,11 +276,10 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Stock Recommendation System Based on ESG Scores and LSTM Model</h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
+                    This project develops a stock recommendation system that combines historical stock data and Environmental, Social, and Governance (ESG) metrics to assist ethical and sustainable investment decisions. Using the Long Short-Term Memory (LSTM) model, the system predicts stock prices while incorporating ESG scores to evaluate companies on financial and sustainability performance. Data preprocessing included merging datasets based on ticker symbols, handling missing values through imputation or removal, and feature scaling with MinMaxScaler to optimize LSTM training. Performance metrics, such as Mean Squared Error (MSE) and Sharpe ratio, validated the system's effectiveness, highlighting correlations between higher ESG scores and improved financial performance.
                   </p>
                 </div>
                 <a
@@ -229,7 +288,7 @@
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
-                  See Live
+                  See More
                 </a>
                 <a
                   rel="noreferrer"
@@ -254,7 +313,98 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/ESGSS.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+           <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Neo4j-Based Knowledge Graph Chat for Real-Time Water Quality Awareness</h3>
+                <div>
+                  <p class="mb-4">
+                    Developed an interactive chatbot system leveraging Neo4j to provide real-time insights into water quality metrics collected by Blue CoLab's monitoring stations. Integrated real-time data on pH, temperature, turbidity, salinity, and dissolved oxygen into a graph database, enabling sophisticated exploration of environmental relationships. The chatbot, built with Flask and enhanced by natural language processing (NLP), translates user queries into actionable insights using Cypher queries. This project fosters public understanding of water safety by offering intuitive access to real-time environmental data, empowering stakeholders with critical knowledge for informed decision-making.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  See More
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/Neo4J.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Island Escape Game</h3>
+                <div>
+                  <p class="mb-4">
+                    Developed a survival game using Unity and C#, titled "Island Escape," where players navigate an island to collect barrels of supplies while avoiding obstacles. Once all barrels are gathered, players proceed to the shore to access the escape raft. The game features intuitive controls: 'A' for left, 'D' for right, 'W' for backward, 'S' for forward, and left mouse click to attack. Designed for HTML5 platforms, this project demonstrates proficiency in game development and user engagement strategies.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  See More
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/GameDev.png"
                     />
                   </div>
                 </a>
@@ -312,33 +462,6 @@
             >Jacobo Martínez</a
           >
         </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
   </body>

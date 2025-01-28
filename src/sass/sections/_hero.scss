@@ -4,7 +4,9 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: url("https://i.pinimg.com/originals/81/34/08/81340844a99a35cc7993166cbd9b5866.gif");
+  background-position: center;
+  background-size: cover;
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
@@ -13,7 +15,20 @@
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: -1;
+  z-index: -1; 
+
+  // Optional dark overlay for better text readability
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4); // Adjust opacity as needed
+    z-index: -1; 
+  }
 
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;

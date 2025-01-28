@@ -26,3 +26,47 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: $primary-color;
 }
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #a2409f;
+  z-index: 1000;
+  padding: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.127);
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;  // Explicitly set horizontal direction
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  align-items: center;  // Center items vertically
+}
+
+.navbar-nav li {
+  display: inline-block;  // Ensure list items are inline
+}
+
+.navbar-nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;  // Increased font size to match the base font size
+  font-family: "Montserrat", sans-serif;
+  transition: color 0.3s;
+  padding: 5px 10px;  // Add some padding around links
+  
+  &:hover {
+    color: #c5f5fa;
+  }
+}
+
